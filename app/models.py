@@ -6,5 +6,6 @@ class Profile(models.Model):
     pro_user=models.OneToOneField(User,on_delete=models.CASCADE)
     addr=models.TextField()
     pro_pic=models.ImageField()
+    
 
 
